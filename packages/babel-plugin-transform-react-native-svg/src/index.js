@@ -22,6 +22,9 @@ const elementToComponent = {
   mask: 'Mask',
   image: 'Image',
   foreignObject: 'ForeignObject',
+  
+  // special 
+  special: 'AnimatedPath'
 }
 
 const expoPrefix = (component, expo) => {
